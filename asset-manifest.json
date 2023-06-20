@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/jjossoo/archive-app-ok.git/static/css/main.e3d5a6c6.css",
+    "main.js": "/jjossoo/archive-app-ok.git/static/js/main.5b000cf0.js",
+    "static/media/2.png": "/jjossoo/archive-app-ok.git/static/media/2.8814383933d320517086.png",
+    "static/media/Pimg4.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg4.81fa6501fafa05fea1f7.jpg",
+    "static/media/Pimg12.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg12.f5e3af4bdc7a5f95e00d.jpg",
+    "static/media/background.png": "/jjossoo/archive-app-ok.git/static/media/background.ec76e73859d7ac984bf8.png",
+    "static/media/Pimg14.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg14.54753ad3d719846574b2.jpg",
+    "static/media/Pimg2.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg2.f7d74dcad7087063c8d2.jpg",
+    "static/media/BCard.png": "/jjossoo/archive-app-ok.git/static/media/BCard.e9b4b1b73b4679f7b85a.png",
+    "static/media/Pimg6.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg6.0480527defdc1afa379f.jpg",
+    "static/media/Pimg16.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg16.d1d1d3e096a021e61da2.jpg",
+    "static/media/Pimg11.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg11.b529373f21470bb911a6.jpg",
+    "static/media/Pimg15.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg15.7c081ad62ced43aa2dac.jpg",
+    "static/media/Checklist.png": "/jjossoo/archive-app-ok.git/static/media/Checklist.8d86e8b11dd90acd758e.png",
+    "static/media/Pimg5.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg5.6db3525f5fa7ebc4b4ec.jpg",
+    "static/media/Pimg1.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg1.efbb21c329cc9446a8df.jpg",
+    "static/media/project.png": "/jjossoo/archive-app-ok.git/static/media/project.8a89fa35e364f973a0bd.png",
+    "static/media/Pimg17.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg17.320725a26a831a946cd4.jpg",
+    "static/media/Pimg3.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg3.571aa47d1d4844a6440b.jpg",
+    "static/media/Pimg10.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg10.f5e31c35c4f7742e59c5.jpg",
+    "static/media/Pimg19.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg19.18411b55b01f75606f47.jpg",
+    "static/media/1.jpg": "/jjossoo/archive-app-ok.git/static/media/1.cafcc7c6d00b892a1b25.jpg",
+    "static/media/Pimg18.jpg": "/jjossoo/archive-app-ok.git/static/media/Pimg18.3fbd6587d8b4110935e9.jpg",
+    "static/media/banner.png": "/jjossoo/archive-app-ok.git/static/media/banner.3f23a8f6940d6977577d.png",
+    "index.html": "/jjossoo/archive-app-ok.git/index.html",
+    "main.e3d5a6c6.css.map": "/jjossoo/archive-app-ok.git/static/css/main.e3d5a6c6.css.map",
+    "main.5b000cf0.js.map": "/jjossoo/archive-app-ok.git/static/js/main.5b000cf0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3d5a6c6.css",
+    "static/js/main.5b000cf0.js"
+  ]
+}
