@@ -1,0 +1,29 @@
+.ModalCard {
+    width: 340px;
+    height:180px;
+    border: 1px solid #3366FF;
+    border-radius: 12px;
+    padding:  0px 20px;
+  }
+  .ModalCard:first-child{
+    margin-right: 10px;
+  }
+.ModalCard p{
+    font-size: 10px;
+    font-weight: 300;
+    color: #357EEA;
+    margin-bottom: 6px;
+}
+
+.ModalCard textarea{
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.ModalCard textarea::placeholder {
+    color: #B0B1B4;
+  }

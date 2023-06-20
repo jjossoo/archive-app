@@ -1,0 +1,194 @@
+[
+    [
+        {
+            "id":"1",
+            "studentName":"고원보",
+            "projects": [
+                {
+                    "studentName":"고원보",
+                    "name":"책잇아웃",
+                    "years":"2018",
+                    "major":"미디어디자인",
+                    "form":"UI/UX",
+                    "filed":"교육",
+                    "img":"./img/Project/1.jpg",
+                    "thum":"/img/1.png"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "id":"2",
+            "studentName":"임예림",
+            "projects": [
+                {
+                    "studentName":"임예림",
+                    "name":"Petopia",
+                    "years":"2019",
+                    "major":"산업디자인",
+                    "form":"UI/UX",
+                    "filed":"친환경",
+                    "img":"./img/Project/2.png",
+                    "thum":"/img/2.png"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "id":"3",
+            "studentName":"홍민지",
+            "projects": [
+                {
+                    "studentName":"홍민지",
+                    "name":"캐치타임",
+                    "years":"2020",
+                    "major":"미디어디자인",
+                    "form":"UI/UX",
+                    "filed":"교육",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/3.png"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "id":"4",
+            "studentName":"김민지",
+            "projects": [
+                {
+                    "studentName":"김민지",
+                    "name":"캐치타임",
+                    "years":"2020",
+                    "major":"미디어디자인",
+                    "form":"UI/UX",
+                    "filed":"친환경",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/4.png"
+                },
+                {
+                    "studentName":"홍민지",
+                    "name":"우리노리 세시풍속",
+                    "years":"2020",
+                    "major":"미디어디자인",
+                    "form":"UI/UX",
+                    "filed":"디지털 트윈",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/5.png"
+                }
+                ,
+                {
+                    "studentName":"홍민지",
+                    "name":"우리노리 세시풍속",
+                    "years":"2023",
+                    "major":"미디어디자인",
+                    "form":"3D",
+                    "filed":"메타버스",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/6.png"
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "id":"5",
+            "studentName":"박건도",
+            "projects": [
+                {
+                    "studentName":"박건도",
+                    "name":"지금은 점심시간",
+                    "years":"2020",
+                    "major":"미디어디자인",
+                    "form":"UI/UX",
+                    "filed":"친환경",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/7.png"
+                },
+                {
+                    "studentName":"박건도",
+                    "name":"Guelgam",
+                    "years":"2020",
+                    "major":"미디어디자인",
+                    "form":"3D",
+                    "filed":"디지털 트윈",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/8.png"
+                },
+                {
+                    "studentName":"박건도",
+                    "name":"Guelgam",
+                    "years":"2020",
+                    "major":"미디어디자인",
+                    "form":"디지털 아트",
+                    "filed":"디지털 트윈",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/9.png"
+                }
+            ]
+        }
+    ],[
+        {
+            "id":"6",
+            "studentName":"김철수",
+            "projects": [
+                {
+                    "studentName":"김철수",
+                    "name":"캐치타임",
+                    "years":"2020",
+                    "major":"미디어디자인",
+                    "form":"UI/UX",
+                    "filed":"친환경",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/10.png"
+                },
+                {
+                    "studentName":"김철수",
+                    "name":"우리노리 세시풍속",
+                    "years":"2020",
+                    "major":"미디어디자인",
+                    "form":"3D",
+                    "filed":"디지털 트윈",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/11.png"
+                }
+                ,
+                {
+                    "studentName":"김철수",
+                    "name":"우리말 보조기",
+                    "years":"2019",
+                    "major":"산업디자인",
+                    "form":"UI/UX",
+                    "filed":"AI",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/12.png"
+                }
+                ,
+                {
+                    "studentName":"김철수",
+                    "name":"우리노리 세시풍속",
+                    "years":"2023",
+                    "major":"미디어디자인",
+                    "form":"영상/모션그래픽",
+                    "filed":"키즈",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/13.png"
+                }
+                ,
+                {
+                    "studentName":"김철수",
+                    "name":"책방",
+                    "years":"2021",
+                    "major":"산업디자인",
+                    "form":"디지털아트",
+                    "filed":"친환경",
+                    "img":"./img/Project/3.png",
+                    "thum":"/img/14.png"
+                }
+            ]
+        }
+    ]
+]
+

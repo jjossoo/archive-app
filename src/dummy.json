@@ -1,0 +1,54 @@
+[
+        {
+            "title":"년도",
+            "key":1,
+            "context":
+            [
+                {"contextTitle":"전체","selected":true,"key":1,"Data":["2018","2019","2020","2021","2022","2023"]},
+                {"contextTitle":"2018","selected":false,"key":2,"Data":"2018"},
+                {"contextTitle":"2019","selected":false,"key":3,"Data":"2019"},
+                {"contextTitle":"2020","selected":false,"key":4,"Data":"2020"},
+                {"contextTitle":"2021","selected":false,"key":5,"Data":"2021"},
+                {"contextTitle":"2022","selected":false,"key":6,"Data":"2022"},
+                {"contextTitle":"2023","selected":false,"key":7,"Data":"2023"}
+            ]
+        },
+        {
+            "title":"전공",
+            "key":2,
+            "context":
+            [
+                {"contextTitle":"전체","selected":true,"key":1,"Data":["미디어디자인","산업디자인"]},
+                {"contextTitle":"미디어디자인","selected":false,"key":2,"Data":"미디어디자인"},
+                {"contextTitle":"산업디자인","selected":false,"key":3,"Data":"산업디자인"}
+            ]
+        },
+        {
+            "title":"프로젝트 형태",
+            "key":3,
+            "context":
+            [
+                {"contextTitle":"전체","selected":true,"key":1,"Data":["UI/UX","3D","그래픽 디자인","영상/모션그래픽","디지털아트"]},
+                {"contextTitle":"UI/UX","selected":false,"key":2,"Data":"UI/UX"},
+                {"contextTitle":"3D","selected":false,"key":3,"Data":"3D"},
+                {"contextTitle":"영상/모션그래픽","selected":false,"key":4,"Data":"영상/모션그래픽"},
+                {"contextTitle":"디지털아트","selected":false,"key":6,"Data":"디지털아트"}
+            ]
+        },
+        {
+            "title":"프로젝트 주제",
+            "key":4,
+            "context":
+            [
+                {"contextTitle":"전체","selected":true,"key":1,"Data":["AI","3D","메타버스","스마트 팩토리","디지털 트윈","키즈","교육","친환경","IT&기술"]},
+                {"contextTitle":"AI","selected":false,"key":2,"Data":"AI"},
+                {"contextTitle":"메타버스","selected":false,"key":4,"Data":"메타버스"},
+                {"contextTitle":"스마트 팩토리","selected":false,"key":5,"Data":"스마트 팩토리"},
+                {"contextTitle":"디지털 트윈","selected":false,"key":6,"Data":"디지털 트윈"},
+                {"contextTitle":"키즈","selected":false,"key":7,"Data":"키즈"},
+                {"contextTitle":"교육","selected":false,"key":8,"Data":"교육"},
+                {"contextTitle":"친환경","selected":false,"key":9,"Data":"친환경"}
+            ]
+        }
+    
+]

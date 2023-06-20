@@ -1,0 +1,219 @@
+@import "../../styles/variables.css";
+
+.project{
+  font-family: Pretendard;
+}
+
+.project_container{
+}
+
+.project_items{
+    margin-bottom: 24px;
+}
+
+.project_item{
+    /* display: flex;
+    flex-direction: column;
+    flex: 3; */
+    position: relative;
+    margin: 0;
+    margin-bottom: 36px;
+    width: 396px;
+    transition: all 0.2s linear;
+    list-style: none;
+   
+}
+
+.project_item_link{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    /* width: 396px; */
+    height: 259px;
+    border-radius: 18px;
+    overflow: hidden;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.project_item_img {
+    position:relative;
+    padding: 0;
+    /* display: block; */
+    width: 396px;
+    /* max-width: 100%; */
+    height: 100%;
+    /* max-height: 100%; */
+    object-fit: cover;
+  }
+
+  .project_item:hover {
+    transform: scale(1.05);
+  }
+  
+  .project_item_info {
+    box-sizing: border-box;
+    /* background: #3366FF; */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.06)20%, rgba(0, 0, 0, 0.3)60%, rgba(0, 0, 0, 0.5) 100%);
+    position: absolute;
+    padding: 54px 28px 16px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .project_item_name {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+  
+  .project_item_studentname {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .project_item_major {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 300;
+    display: inline-block;
+  }
+/*   
+  .Bookmark {
+    width: 23px;
+    height: 34px;
+    color: #616161;
+    float: right;
+  } */
+
+  .project_field{
+    position: absolute;
+    padding: 4px 16px;
+    font-size: 12px;
+    font-weight:700;
+    color: #ffffff;
+    border-radius: 18px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 45px;
+    margin-right: 28px;
+    z-index: 1;
+    border: 1px solid white;
+
+}
+
+/* .textbox{
+    display: inline-block;
+    width: calc(100% - 181px);
+} */
+
+.icon{
+    display: inline-block;
+    width: 181px;
+    text-align: right;
+}
+
+.project_item_link:hover .item__overlay {
+    top: 0;
+    opacity: 1;
+}
+
+.item__overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.item__body {
+  position: absolute;
+  /* bottom: 0; */
+  left: 0;
+  width: 100%;
+  /* padding: 16px; */
+  color: #fff;
+  /* display: flex; */
+ 
+}
+
+.good {
+  font-size: 20px;
+  font-weight: 600;
+  width: 330px;
+  height: 30px;
+  margin-left: 36px;
+  margin-top: 24px;
+}
+
+.bad{
+  font-size: 20px;
+  font-weight: 600;
+  width: 330px;
+  height: 129px;
+  margin-left: 36px;
+  margin-top: 86px;
+}
+
+h2{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  margin-top:8px;
+}
+
+/* newproject 부분 */
+
+.newproject_item{
+  width: 396px;
+  height: 257px;
+  transition: all 0.2s linear;
+  list-style: none; 
+ 
+  border: 1px solid #DADADA;
+  border-radius: 4px;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+.newproject_new{
+  text-align: center;
+}
+
+.icon_background {
+  position: relative;
+  background: #3366FF;
+  border-radius: 9999px;
+  width: 80px;
+  height: 80px;
+  margin: 65px auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.icon_plus{
+  width: 24px;
+  color: white;
+}
+
+.plustext{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #616161;
+}

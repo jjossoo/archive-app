@@ -1,0 +1,13 @@
+@import "../../styles/variables.css";
+
+.tooltip{
+    background-color: #F0F4FE;
+    color: var(--color-Primary);
+    padding: 24px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 50px;
+}

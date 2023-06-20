@@ -1,0 +1,17 @@
+@import "../../styles/variables.css";
+
+.FilterList{
+    font-family: Pretendard;
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+}
+
+.FilterList::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollcontainer{
+    width: 100%;
+}
+

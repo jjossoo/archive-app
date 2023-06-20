@@ -1,0 +1,44 @@
+@import "../../styles/variables.css";
+
+.header{
+    border-bottom: 1px solid var(--color-line);
+    /* position: absolute; */
+    z-index: 9;
+    box-sizing: border-box;
+    /* padding-left: calc((100% - 1268px)/2); */
+    /* padding-right: 30px; */
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.context{
+    width: 1268px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 290px;
+}
+
+.context img{
+
+}
+
+.color{
+    color: var(--color-Primary);
+}
+
+h1{
+    color: var(--color-gray5);
+}
+
+p{
+    font-size: 20px;
+    color: var(--color-gray5);
+}
+
+.ScrapCard{
+    margin-bottom: 200px;
+}

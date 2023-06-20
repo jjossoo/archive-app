@@ -1,0 +1,26 @@
+@import "../../styles/variables.css";
+
+.FilterButton{
+    background-color: var(--color-FilterButton);
+    border-radius: 4px;
+    display: inline-block;
+    padding : 16px 30px;
+    font-size: 16px;
+    font-family: Pretendard;
+    color: var(--color-gray5);
+    border:1px solid var(--color-FilterButton);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.FilterButtonnone{
+    background-color: white;
+    border-radius: 4px;
+    display: inline-block;
+    padding : 16px 30px;
+    font-size: 16px;
+    font-family: Pretendard;
+    color: var(--color-gray4);
+    border:1px solid var(--color-gray4);
+    box-sizing: border-box;
+}

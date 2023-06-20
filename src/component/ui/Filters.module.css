@@ -1,0 +1,31 @@
+@import "../../styles/variables.css";
+
+.filters{
+    width: 1268px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.filters>div{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-family: Pretendard;
+    width: 160px;
+}
+
+.corrent{
+    background-color: aqua;
+    position: absolute;
+}
+
+.filters>div:not(:last-of-type){
+    margin-bottom: 30px;
+}
+
+
+.button{
+    background-color: antiquewhite;
+}

@@ -1,0 +1,65 @@
+@import "../../styles/variables.css";
+
+.dropDownWrap{
+    width: 100%;
+    margin: auto;
+    border: 1px solid var(--color-gray5);
+    padding: 24px 20px;
+    margin-bottom: 20px;
+    font-family: Pretendard;
+    border-radius: 4px;
+    color: var(--color-gray5);
+    position: relative;
+    box-sizing: border-box;
+}
+.dropDown{
+    box-sizing: border-box;
+    width: 100%;
+    color: var(--color-);
+}
+
+.dropDown>div:nth-child(1){
+    line-height: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropDown>div:nth-child(1) p{
+    line-height: 0;
+}
+
+
+.dropDownContext{
+    margin: 0;
+    border: 1px solid var(--color-gray5);
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    padding: 24px 40px;
+    border-radius: 4px;
+    left: 0;
+    bottom: 0;
+    transform: translateY(calc(100% + 4px));
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 20px;
+    overflow: hidden;
+    height: auto;
+    transition: all 0.4 ease-in-out;
+    background-color: white;
+
+}
+
+.dropDownContextToggle{
+    margin: 0;
+    height: 0px;
+    padding: 0px;
+    border: none;
+    transition: all 0.4 ease-in-out;
+}
+
+.LineBlue{
+    border: 1px var(--color-Primary) solid;
+    box-shadow: 0 0 0 1px var(--color-Primary) inset;
+}

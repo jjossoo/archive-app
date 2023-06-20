@@ -1,0 +1,29 @@
+@import "../../../styles/variables.css";
+
+
+.filterButton{
+    color:#000000;;
+    text-align: center;
+    padding: 2px 26px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+    width: auto;
+    border-radius: 100px;
+
+    display: inline-block;
+    font-size: 14px;
+    font-family: Pretendard;
+}
+
+.toggle{
+    color: var(--color-gray5);
+    border:1px solid var(--color-FilterButton);
+    background-color: var(--color-FilterButton);
+}
+
+.notToggle{
+    background-color: white;
+    color: var(--color-gray4);
+    border:1px solid var(--color-gray4);
+}

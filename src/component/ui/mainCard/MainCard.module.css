@@ -1,0 +1,269 @@
+.Maincard_Container {
+    padding: 10px;
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+    transform: translateY(-81px);
+    background-image: url(../../../img/background.png);
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.back .hero{
+    width: 1268px;
+    margin: auto;
+}
+
+.back h1{
+    font-size: 60px;
+    color: white;
+}
+.back p{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+/* .Main_TextWrapper {
+   
+} */
+
+.Main_Text {
+    width: 314px;
+    height: 428px;
+    padding: 42px 47px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #3366FF;
+    /* height: 408px; */
+    /* box-shadow: 0px 8px 8px rgba(0,0,0,0.3); */
+}
+
+.Project_Content {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Pretendard";
+    font-weight: Regular;
+}
+
+.Project_Text {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Pretendard";
+    font-weight: Bold;
+    line-height: 120%;
+}
+
+.Resume_Text {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Pretendard";
+    font-weight: Bold;
+   
+}
+
+.Resume_Content {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Pretendard";
+    font-weight: Regular;
+}
+
+.Main_Resume {
+    width: 100%;
+    
+}
+
+.Main_Resumeimg {
+    max-width: 210px;
+    margin: 0 auto;
+}
+
+/* 이력서 긴 카드 */
+
+.MainBCard_TextWrapper {
+    padding: 38px 44px;
+    border-radius: 10px;
+    width: 294px;
+    height: 224px;
+    box-sizing: border-box;
+    background-color: #393939;
+    /* box-shadow: 0px 8px 8px rgba(0,0,0,0.3); */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.MainBCard_Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MainBCard_TextWrapper:hover {
+    background-color: #666666;  
+    transition: 0.3s;
+}
+
+.BCardimg {
+    max-width: 150px;
+    margin-bottom: 8px;
+}
+
+/* 첫번째B카드 */
+
+.MainBCard_ImgWrapper {
+    border-radius: 10px;
+    background-color: #393939;
+    margin-right: 25px;
+    height: 224px;
+}
+
+.BCardPimg {
+    /* box-shadow: 0px 8px 8px rgba(0,0,0,0.3); */
+    max-width: 100%;
+    width: 294px;
+    height: 224px;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.MainBCard_ImgWrapper:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+    
+}
+
+/* 두번째B카드 */
+
+.MainBTCard_ImgWrapper {
+    border-radius: 10px;
+    background-color: transparent;
+    /* box-shadow: 0px 8px 8px rgba(0,0,0,0.3); */
+    margin-right: 25px;
+    height: 224px;
+}
+
+.BTCardPimg {
+    max-width: 100%;
+    width: 294px;
+    height: 224px;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.MainBTCard_ImgWrapper:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+    
+}
+
+/* 학생들 프로젝트 보러가기 */
+
+.BCard_Content {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Pretendard";
+    font-weight: Regular;
+}
+
+.BCard_Text {
+    padding: 45px 47px ;
+    width: 314px;
+    height: 137px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #393939;
+    /* box-shadow: 0px 8px 8px rgba(0,0,0,0.3); */
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.BCard_Text:hover {
+    background-color: #666666;  
+    transition: 0.3s;
+}
+
+/* 학생 소개 보러가기 */
+
+
+/*  배너 */
+
+.Main_BannerWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    /* max-width: 1166px;
+    height: 448px; */
+    background-color: #FFFFFF;
+    margin: 0 38px;
+}
+
+.Main_Bannerimg {
+    max-width: 923px;
+    border-radius: 10px;
+    /* box-shadow: 0px 8px 8px rgba(0,0,0,0.3); */
+}
+
+.Main_Bannerimg:hover {
+    filter: brightness(60%);
+    transition: 0.3s;
+}
+
+.MainPage_CardWrapper {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    /* background-color: #1100ff; */
+    margin-bottom: 240px;
+    margin-top: 100px;
+}
+
+.MainPage_Card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 10px;
+    /* background-color: #00ff00; */
+    width: 923px;
+}
+
+.MainPage_ProjectCard {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    border-radius: 10px;
+    /* background-color: #ff0000; */
+}
+
+.MainPage_BText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 10px;
+    /* background-color: #ffc400; */
+    margin-left: 24px;
+}

@@ -1,0 +1,200 @@
+.modal {
+  font-family: Pretendard;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content { 
+  width: 750px; height: 500px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 40px;
+}
+.modal-content h2{
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+.modal p{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.modal-p{
+  display: flex;
+  flex-direction:row;
+  font-size: 22px;
+}
+.modal-p p:first-child{
+  margin-right: 30px;
+}
+
+.sub-title{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.sub-title h3{
+  font-size: 18px;
+  font-weight: 400;
+  width: 150px;
+  color: #585858;
+}
+.sub-title p{
+  margin-left: 24px;
+  width: 100%;
+  margin-top: 30px;
+  border-top: 1px solid #E4E7F2;
+}
+
+.cards{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Button{
+  margin-top: 12px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-area{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.button-area button{
+  border-radius: 4px;
+  width: 236px;
+  height: 54px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.button-area img{
+  margin-right: 8px;
+}
+
+
+/* 버튼의 실질적인 ui */
+button {
+  /* position: absolute; */
+  width: 42px; height: 42px;
+  background-color: #3366FF;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+
+App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Top{
+  display: flex;
+  align-items:  center;
+  width: 1268px;
+  margin: auto;
+  margin-top: 50px; 
+}
+.material-symbols-outlined{
+  color: #8B8B8B;
+  margin-right: 18px;
+}
+
+.Top h1{
+  font-family: Pretendard;
+  font-weight: 400;
+  font-size: 14px; margin-right: 4px;
+  border: 1px solid #d5d5d5;
+  border-radius: 20px;
+  color: #d5d5d5;
+  padding: 9px 18px 9px 18px;
+}
+
+.scroll{
+  font-family: Pretendard;
+  margin-top: 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: #f8f8f8;
+  padding: 8px 0 8px 0;
+  width: 1268px;
+  /* max-width: calc(100% - 320*2px); */
+  margin: auto;
+  position: relative;
+}
+.info{
+  font-family: Pretendard;
+  margin-left: 20px; margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.info img{
+  margin-right: 12px;
+}
+.info-w{
+  display: flex;
+flex-direction: column;
+}
+.info-w h2{
+  font-size: 16px;
+  font-weight: 600;
+}
+.info-wh{
+  margin-top: 10px;
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+}
+.info-wh p{
+margin-right: 8px;
+font-size: 14px;
+margin-top: -8px;
+}
+
+.B{
+  position: absolute;
+  top: -10px;
+  right: -80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.B p{
+  color: #b7b7b7;
+  margin-top: 6px;
+  font-weight: 400;
+  color: var(--color-gray5);
+  font-size: 14px;
+  font-family: Pretendard;
+  text-align: center;
+}
+
+textarea{
+  resize: none;
+}

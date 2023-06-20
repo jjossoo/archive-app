@@ -1,0 +1,205 @@
+*{
+  font-family: Pretendard;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.modal-content { 
+  width: 750px; height: 500px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 40px;
+  position: relative;
+}
+.modal-content h2{
+  line-height: 160%;
+  font-size: 22px;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+.modal-content p{
+  font-size: 22px;
+}
+
+.choose{
+  font-family: Pretendard;
+  width: 100%; height: 270px;
+  margin-top: 50px;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction:row;
+  color: #616161;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-box{
+  width: 400px;
+  padding-top: 20px;
+  background-color: #F2F4F7;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.choose-box:first-child{
+  margin-right: 32px;
+}
+.choose-boxLine:first-child{
+  margin-right: 32px;
+}
+/* .choose:active{
+  background-color: aqua;
+} */
+
+.choose-boxLine{
+  width: 400px;
+  padding-top: 20px;
+  background-color: #F2F4F7;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 2px blue;
+}
+
+.choose h3{
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  margin-top: 20px;
+  color: #616161;
+}
+
+.choose p{
+  font-size: 14px !important;
+  line-height: 15px;
+  margin-top: -8px;
+  text-align: center;
+}
+
+
+
+
+.button-area{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+
+/* 버튼의 실질적인 ui */
+button {
+  /* position: absolute; */
+  width: 240px; height: 44px;
+  padding: 10px 20px;
+  background-color: #3366FF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.v h1{
+  color: rgb(128, 78, 78);
+}
+
+.G{
+  position: absolute;
+  transform: translateX(-100px);
+}
+/* 새로 추가하는 모달의 css */
+.sub-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+}
+
+.sub-modal-content {
+  width: 750px; height: 500px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 40px;
+  position: relative;
+}
+
+.sub-modal-content h2 {
+  font-size: 22px;
+  line-height: 160%;
+  font-weight: 900;
+  margin-bottom: -10px;
+}
+
+.sub-modal-content p{
+  font-size: 18px;
+  color: #616161;
+  margin-bottom: 70px;
+}
+
+.sub-modal-content span{
+  font-size: 16px;
+  color: #616161;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.close-button {
+  position: absolute;
+  bottom: 50px;
+  padding: 10px 20px;
+  background-color: #3366FF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.down{
+  margin-top: 18.4px;
+}
+
+.filter{ 
+  width: 85%; height: 200px;
+}
+
+.filter .b-f{ 
+  color:#000000;;
+  text-align: center;
+  align-items:center;
+  justify-content: center;
+  padding: 10px 16px;
+  margin-right: 10px; margin-bottom: 10px;
+
+  width: auto;
+  height: 37px;
+
+  background: #F2F4F7;
+  border-radius: 100px;
+
+}
+
+.filter .b-f:clicked{
+  background-color: #3366FF;
+}
+

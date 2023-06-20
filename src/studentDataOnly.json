@@ -1,0 +1,48 @@
+[
+    [
+        {
+            "id":"1",
+            "studentName":"고원보",
+            "projects": [
+                {
+                    "studentName":"고원보",
+                    "name":"책잇아웃",
+                    "years":"2018",
+                    "major":"미디어디자인",
+                    "form":"UI/UX",
+                    "filed":"교육",
+                    "img":"./img/Project/1.jpg",
+                    "thum":"/img/1.png"
+                },{
+                    "studentName":"디프만",
+                    "name":"똑똑",
+                    "years":"2020",
+                    "major":"미디어디자인",
+                    "form":"3D",
+                    "filed":"디지털교육",
+                    "img":"./img/Project/1.jpg",
+                    "thum":"/img/2.png"
+                },{
+                    "studentName":"고원보",
+                    "name":"책잇아웃",
+                    "years":"2018",
+                    "major":"미디어디자인",
+                    "form":"UI/UX",
+                    "filed":"교육",
+                    "img":"./img/Project/1.jpg",
+                    "thum":"/img/3.png"
+                },{
+                    "studentName":"고원보",
+                    "name":"책잇아웃",
+                    "years":"2018",
+                    "major":"미디어디자인",
+                    "form":"UI/UX",
+                    "filed":"교육",
+                    "img":"./img/Project/1.jpg",
+                    "thum":"/img/4.png"
+                }
+            ]
+        }
+    ]
+]
+

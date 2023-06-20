@@ -1,0 +1,74 @@
+@import "../../styles/variables.css";
+
+.TextAreawrap{
+    font-family: Pretendard;
+    display: flex;
+    flex-direction: column;
+    width: 1268px;
+    margin: auto;
+    gap:20px;
+}
+.flexWrap{
+    display: flex;
+}
+.flex{
+    display: flex;
+}
+
+.flex div{
+}
+
+
+.TextAreawrap>div:nth-child(1){
+    color: var(--color-gray5);
+    font-size: 18px;
+}
+.TextAreawrap>div:nth-child(2){
+    display: flex;
+    align-items: start;
+    gap: 18px;
+}
+.TextAreawrap>div:nth-child(2)>p{
+    font-size: 16px;
+    color: var(--color-gray4);
+    width: 130px;
+    padding: 0px;
+    margin: 0;
+    text-align: left;
+}
+
+
+.TextAreawrap>div:nth-child(2)>div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    height: var(--height);
+}
+
+.TextArea{
+    font-family: Pretendard;
+    font-size: 16px;
+    flex: 1;
+    border-radius: 4px;
+    padding: 20px;
+    color: var(--color-gray5);
+    border: 1px solid var(--color-gray5);
+    resize: none;
+    outline-color: var(--color-Primary);
+}
+
+.TextArea:focus{
+    border: 1px solid var(--color-Primary);
+}
+
+.Button{
+    width: 100px;
+    background-color: var(--color-Primary);
+    color: white;
+    margin-left: 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

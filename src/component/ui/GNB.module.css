@@ -1,0 +1,81 @@
+@import "../../styles/variables.css";
+
+.GNB{
+    display: flex;
+    justify-content: center;
+    font-family: Pretendard;
+    border-bottom: 1px solid var(--color-line);
+    background-color: white;
+    z-index: 99;
+    position: relative;
+}
+
+.turn{
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid var(--color-gray5);
+}
+
+.GNB>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1268px;
+    height: 80px;
+    /* max-width: 1000px; */
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+}
+
+.Logo img{
+    height: 100%;
+    /* width: 120px; */
+    cursor: pointer;
+    line-height: 100px;
+}
+
+.menu{
+}
+
+.menu>ul{
+    display: flex;
+    list-style-type: none;
+}
+
+
+.menu>ul li{
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 50px;
+    color: var(--color-gray5);
+    text-align: center;
+}
+
+.turn li{
+    color: white !important;
+}
+
+.menu>ul li:after{
+    display: block;
+    width: 100%;
+    content: '';
+    border-bottom: solid 2px var(--color-Primary);transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    transform: translateY(10px) scaleX(0);
+}
+
+.menu>ul li:hover:after {
+    transform: translateY(10px) scaleX(1);
+}
+
+input[type="radio"] {
+    position: absolute;
+    display: none;
+}
+
+input[type="radio"]:checked + li {
+    color: var(--color-Primary);
+}

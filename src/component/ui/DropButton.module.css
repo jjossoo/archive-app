@@ -1,0 +1,13 @@
+@import "../../styles/variables.css";
+
+.Button{
+    background-color: white;
+    padding: 16px 30px;
+    color: var(--color-gray5);
+    border-radius: 4px;
+}
+
+.Button:hover{
+    background-color: #F0F4FE;
+    color: var(--color-Primary);
+}
